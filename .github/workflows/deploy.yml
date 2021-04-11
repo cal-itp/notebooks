@@ -1,6 +1,4 @@
-
 name: deploy the app
-
 on:
   push:
     branches:
@@ -8,12 +6,12 @@ on:
       - voila 
 jobs:
   deploy:
-  - uses: google-github-actions/setup-gcloud@master
-    with:
-      version: '290.0.1'
-      service_account_key: ${{ secrets.GCP_SA_KEY }}
-      export_default_credentials: true
-  - id: Deploy
-    uses: google-github-actions/deploy-appengine@main
-    with:
-      project_id: ${{ secrets.project_id }}
+    - uses: google-github-actions/setup-gcloud@master
+      with:
+        version: '290.0.1'
+        service_account_key: ${{ secrets.GCP_SA_KEY }}
+        export_default_credentials: true
+    - id: Deploy
+      uses: google-github-actions/deploy-appengine@main
+      with:
+        project_id: ${{ secrets.project_id }}
