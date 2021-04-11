@@ -4,4 +4,4 @@ pandas
 geopandas
 gtfs-realtime-bindings
 pydeck
-
+altair
