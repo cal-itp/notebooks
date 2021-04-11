@@ -2,5 +2,5 @@ runtime: python
 env: flex
 runtime_config:
   python_version: 3
-entrypoint: voila --port=$PORT --no-browser
+entrypoint: voila --port=$PORT --no-browser --show_tracebacks=True
 
