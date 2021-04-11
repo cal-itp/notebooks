@@ -5,3 +5,4 @@ geopandas
 gtfs-realtime-bindings
 pydeck
 altair
+requests
