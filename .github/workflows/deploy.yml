@@ -6,13 +6,20 @@ on:
       - voila 
 jobs:
   deploy:
+    runs-on: ubuntu-latest
     steps:
-      - uses: google-github-actions/setup-gcloud@master
+      - name: Check out repo
+        uses: actions/checkout@v2
+        with:
+          fetch-depth: 0
+      - name: setup gcloud
+        uses: google-github-actions/setup-gcloud@master
         with:
           version: '290.0.1'
           service_account_key: ${{ secrets.GCP_SA_KEY }}
           export_default_credentials: true
-      - id: Deploy
+      - name: deploy
+        id: Deploy
         uses: google-github-actions/deploy-appengine@main
         with:
           project_id: ${{ secrets.project_id }}
