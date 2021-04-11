@@ -1,6 +1,4 @@
-runtime: python
+runtime: custom
 env: flex
-runtime_config:
-  python_version: 3
 entrypoint: voila --port=$PORT --no-browser --show_tracebacks=True
 
