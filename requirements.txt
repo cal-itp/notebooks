@@ -6,3 +6,8 @@ gtfs-realtime-bindings
 pydeck
 altair
 requests
+tqdm
+gcsfs
+ipyleaflet
+asyncio
+
