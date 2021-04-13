@@ -9,4 +9,7 @@ EXPOSE 3838
 EXPOSE 8080
 
 WORKDIR "/app"
+
+COPY . /app
+
 CMD ["voila","--port=8080","--no-browser","--show_tracebacks=True"] 
