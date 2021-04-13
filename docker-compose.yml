@@ -20,7 +20,7 @@ services:
     volumes:
      - ./:/app
     ports:
-      - "3838:3838"
+      - "8080:8080"
   postgres:
     image: mdillon/postgis:9.6
     environment:
