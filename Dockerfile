@@ -4,5 +4,9 @@ COPY ./requirements.txt /tmp/requirements.txt
 
 RUN pip install -r /tmp/requirements.txt
 
-COPY . /home/joyvan
-CMD ["voila","--port=8080","--no-browser","--show_tracebacks=True"] 
+EXPOSE 8888
+EXPOSE 3838
+
+WORKDIR /root/work
+
+CMD ["voila","--port=3838","--no-browser","--show_tracebacks=True"] 
