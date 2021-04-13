@@ -9,4 +9,4 @@ EXPOSE 3838
 
 WORKDIR /root/work
 
-CMD ["voila","--port=3838","--no-browser","--show_tracebacks=True"] 
+CMD ["voila","--port=8080","--no-browser","--show_tracebacks=True"] 
