@@ -1,0 +1,4 @@
+runtime: custom
+env: flex
+entrypoint: voila --port=$PORT --no-browser --show_tracebacks=True
+
