@@ -1,0 +1,7 @@
+Feed Version: 2020-09 (Sept)_20210119
+GTFS-to-geoJSON Version: 2.0.5
+Date Generated: Thu Feb 11 2021 13:12:49 GMT-0800 (Pacific Standard Time)
+Route Count: 0
+GeoJSON File Count: 1
+Output Type: agency
+Source: http://gtfs.bigbluebus.com/current.zip
