@@ -27,8 +27,6 @@ jobs:
         with:
           github-token: ${{secrets.GITHUB_TOKEN}}
           script: |
-            console.log(process.env)
-
             const body = process.env.FILES
               .split(" ")
               .filter(f => f.endsWith(".ipynb"))
