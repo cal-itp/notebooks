@@ -26,7 +26,6 @@ jobs:
           FILES: ${{steps.files.outputs.all}}
         with:
           github-token: ${{secrets.GITHUB_TOKEN}}
-          debug: true
           script: |
             console.log(process.env)
 
