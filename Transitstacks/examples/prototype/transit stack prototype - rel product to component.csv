@@ -1,0 +1,46 @@
+"An list of products and the components they cover. 
+When possible, versions or sub-products should be specified to be as precise as possible about capabilities. ",
+Product,Component
+Worldpay,Payment processor
+Token Transit Mobile Ticketing,Mobile ticketing
+UTA SmartSensor Interface,APC On-Board Computer
+UTA Model 30 CPU,APC On-Board Computer
+UTA APC Software,APC Software
+UTA Overhead APC Sensors,APC Sensors
+UTA Horizontal APC Sensors,APC Sensors
+TransTrack Manager,Consolidated Reporting
+Transit App,Web-based trip planner
+Transit App,Reporting
+Google,Web-based trip planner
+GRaaS,AVL Software
+GRaaS,AVL On-board Computer
+GRaaS,AVL Software
+Optibus,Scheduling
+Optibus,Run cutting
+TransiTrack EAM,Fleet Maintenance
+TransiTrack EAM,Inventory
+TransiTrack EAM,Purchasing
+Connexionz AVA,Annunciator
+Connexionz APC,APC On-Board Computer
+Connexionz APC,APC Software
+Connextionz Busfinder,Offboard signage
+Connextionz Communication Devices,Over-air communications
+Connextionz Vehicle and Shelter Displays,Offboard signage
+Connextionz Vehicle and Shelter Displays,Interior signage
+Connextionz CAD/AVL,Computer Automated Dispatch
+Connextionz CAD/AVL,Automated vehicle locations
+Connextionz Performance Dashboard,Consolidated Reporting
+Connextionz Route Planning,Scheduling
+Genfare FastFare,Farebox
+Genfare FastFare E,Farebox
+Genfare Odyssey Plus,Farebox
+Genfare Cardquest,Farebox
+Genfare Odyssey,Farebox
+Genfare Vendstar E,Ticket vending machines
+Genfare Transview,Farebox
+Genfare Pacemaker,Farebox
+Genfare Vendstar 4,Ticket vending machines
+Genfare Mobile Link,Mobile ticketing
+Genfare Mobile Link,Web-based trip planner
+Hanover Headsigns,Headsigns
+Sunrise CDP,Offboard signage

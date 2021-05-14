@@ -1,6 +1,6 @@
 voila
 intake
-pandas
+pandas > 1.0
 geopandas
 gtfs-realtime-bindings
 pydeck
@@ -10,4 +10,9 @@ tqdm
 gcsfs
 ipyleaflet
 asyncio
-
+cairo
+colour
+colorcet
+mkdocs
+mkdocstrings 
+diagrams >= 0.19

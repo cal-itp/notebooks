@@ -1,0 +1,38 @@
+"List of possible components (boxes) in a stack diagram which fulfill a particular function. 
+Key is Component.Many-to-many relationship with products. Each product may contain several components and each component may have several possible products which fulfill its functions."
+Component,Alias,emptyFunction Group,Function Group,Location
+Scheduling,,,Scheduling,Backoffice
+GTFS generation,,,Scheduling,Backoffice
+Run cutting,,,Scheduling,Backoffice
+Driver Assignment,,,Scheduling,Backoffice
+Computer Automated Dispatch,CAD,,Operations,
+Location Sensors,AVL,AVL,Operations,Vehicle
+AVL On-board Computer,,AVL,Operations,Vehicle
+AVL Software,,AVL,Operations,Backoffice
+APC Sensors,Automatic Passenger Counters,APC,Operations,Vehicle
+APC On-Board Computer,,APC,Operations,Vehicle
+APC Software,,APC,Reporting,Backoffice
+Consolidated Reporting,,,Reporting,Backoffice
+Vehicle Logic Unit,VLU,,Operations,Vehicle
+Over-air communications,,,Operations,Vehicle
+Arrival predictions,,,Operations,Cloud
+Supervisory control and data acquisition,SCADA,,Operations,
+Mobile data terminal,MDT,,Operations,Vehicle
+Real-time info,,,Rider info,Cloud
+Web-based trip planner,,,Rider info,Cloud
+Offboard signage,,,Rider info,Stop
+Service alerts,,,Rider info,Cloud
+Headsigns,,,Rider info,Vehicle
+Annunciator,AVA,,Rider info,Vehicle
+Interior signage,,,Rider info,Vehicle
+Payment processor,,,Backoffice,Offsite
+Merchant services,,,Backoffice,Offsite
+Mobile ticketing,,,Fare collection,Offsite
+Ticket vending machines,TVM,,Fare collection,Stop
+Farebox,,,Fare collection,Vehicle
+Reporting,,,Backoffice,Backoffice
+Server,,,Backoffice,Cloud
+Transit Atlas,,,Rider info,Cloud
+Fleet Maintenance,,,Maintenance,Backoffice
+Inventory,,,Maintenance,Backoffice
+Purchasing,,,Maintenance,Backoffice

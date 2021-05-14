@@ -1,0 +1,6 @@
+cairo
+colour
+colorcet
+diagrams
+diagrams >= 0.19
+pandas > 1.0 

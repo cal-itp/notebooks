@@ -1,0 +1,26 @@
+"Specifyng the relationships between components and what data standard and mechnaisms are used.
+AKA the ""arrows"" in a stack diagram.Keyed on Component A, Component B, Data Standard, Mechanim",,,,,,,,
+Transit Provider,absm_id,Component A,Component B,Standard,Mechanism,Information ,Parallel Model,Centralized Model
+GET Bus,Scheduling|GTFS generation|Human translation|Human painful by hand,Scheduling,GTFS generation,Human translation,Human painful by hand,,0,0
+GET Bus,GTFS generation|AVL Software|GTFS Schedule|TO CONFIRM,GTFS generation,AVL Software,GTFS Schedule,TO CONFIRM,,0,0
+GET Bus,AVL Software|AVL On-board Computer|NA|Intra-product,AVL Software,AVL On-board Computer,NA,Intra-product,,0,0
+GET Bus,AVL On-board Computer|Mobile data terminal|NA|Intra-product,AVL On-board Computer,Mobile data terminal,NA,Intra-product,,0,0
+GET Bus,Mobile data terminal|Service alerts|NA|Intra-product,Mobile data terminal,Service alerts,NA,Intra-product,,0,0
+GET Bus,Mobile data terminal|AVL On-board Computer|NA|Intra-product,Mobile data terminal,AVL On-board Computer,NA,Intra-product,,0,0
+GET Bus,AVL On-board Computer|AVL Software|NA|Intra-product,AVL On-board Computer,AVL Software,NA,Intra-product,,0,0
+GET Bus,AVL Software|Arrival predictions|NA|Intra-product,AVL Software,Arrival predictions,NA,Intra-product,,0,0
+GET Bus,Location Sensors|AVL On-board Computer|NA|Intra-product,Location Sensors,AVL On-board Computer,NA,Intra-product,,0,0
+GET Bus,Arrival predictions|Offboard signage|GTFS Trip Updates|API request,Arrival predictions,Offboard signage,GTFS Trip Updates,API request,,0,0
+GET Bus,Service alerts|Offboard signage|GTFS Alerts|API request,Service alerts,Offboard signage,GTFS Alerts,API request,,0,0
+GET Bus,AVL Software|Offboard signage|GTFS Vehicle Locations|API request,AVL Software,Offboard signage,GTFS Vehicle Locations,API request,,0,0
+GET Bus,Arrival predictions|Real-time info|GTFS Trip Updates|API request,Arrival predictions,Real-time info,GTFS Trip Updates,API request,,0,0
+GET Bus,Service alerts|Real-time info|GTFS Alerts|API request,Service alerts,Real-time info,GTFS Alerts,API request,,0,0
+GET Bus,AVL Software|Real-time info|GTFS Trip Updates|API request,AVL Software,Real-time info,GTFS Trip Updates,API request,,0,0
+GET Bus,AVL Software|Consolidated Reporting|TO CONFIRM|TO CONFIRM,AVL Software,Consolidated Reporting,TO CONFIRM,TO CONFIRM,,0,0
+GET Bus,Farebox|Consolidated Reporting|TO CONFIRM|TO CONFIRM,Farebox,Consolidated Reporting,TO CONFIRM,TO CONFIRM,,0,0
+GET Bus,APC Sensors|APC On-Board Computer|NA|Intra-product,APC Sensors,APC On-Board Computer,NA,Intra-product,,0,0
+GET Bus,APC On-Board Computer|APC Software|NA|Intra-product,APC On-Board Computer,APC Software,NA,Intra-product,,0,0
+GET Bus,APC Software|Consolidated Reporting|Human translation|Human painful by hand,APC Software,Consolidated Reporting,Human translation,Human painful by hand,,0,0
+GET Bus,Mobile data terminal|Headsigns|TO CONFIRM|TO CONFIRM,Mobile data terminal,Headsigns,TO CONFIRM,TO CONFIRM,,0,0
+GET Bus,Mobile data terminal|Annunciator|TO CONFIRM|Intra-product,Mobile data terminal,Annunciator,TO CONFIRM,Intra-product,,0,0
+GET Bus,Mobile data terminal|Interior signage|NA|Intra-product,Mobile data terminal,Interior signage,NA,Intra-product,,0,0
