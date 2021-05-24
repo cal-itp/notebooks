@@ -7,8 +7,9 @@ services:
     container_name: jupyter-lab
     volumes:
      - ./:/app
+     - $HOME/.config/gcloud:/home/jovyan/.config/gcloud
     ports:
-      - "8888:8888"
+      - "8889:8888"
     environment:
       - DEV=1
       - POSTGRES_URI=postgres://caltrans:secret@postgres:5432/caltrans
@@ -19,6 +20,7 @@ services:
     container_name: voila
     volumes:
      - ./:/app
+     - $HOME/.config/gcloud:/home/jovyan/.config/gcloud
     ports:
       - "8080:8080"
   postgres:
