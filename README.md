@@ -1,4 +1,9 @@
 # notebooks
+
+> This repository is now **ARCHIVED** and **READ-ONLY**.
+> 
+> Please see [cal-itp/data-infra](https://github.com/cal-itp/data-infra) and [cal-itp/data-analyses](https://github.com/cal-itp/data-analyses) for more recent work.
+
 Ad-hoc notebooks and other sketches done by Cal-ITP team members.
 
 ## Deployment 
